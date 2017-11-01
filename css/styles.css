@@ -1,0 +1,116 @@
+/* Wikipedia Viewer Styles */
+
+body {
+    background-color: rgb(65, 74, 89);
+    min-width: 1024px;
+}
+
+#wrapper {
+    margin-top: 250px;
+}
+
+/* Search Box Styles */
+
+.search-box {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.search-box p {
+    font-size: 3em;
+    color: #2EB3DB;
+}
+
+.search-box input[type="text"] {
+    color: #262626;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 30px black;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    padding-left: 10px;
+    transition: .3s;
+}
+
+.search-box input[type="text"]:hover {
+    border: 1px solid #2EB3DB;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+.btn-primary {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 30px black;
+    height: 45px;
+    width: 150px;
+    transition: .3s;
+}
+
+/* Feeling Lucky Button Styles */
+
+.btn-primary:hover {
+   transition: .3s;
+   border: 1px solid #2EB3DB;
+   color: #2EB3DB;
+   background-color: transparent;
+}
+
+/* Search Result Box */
+
+.search-result-container-blank {
+    display: none;
+    margin-top: 300px;
+}
+
+.search-result-container-active {
+    display: block;
+    
+}
+
+li {
+    border: 1px solid white;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+li a>span {
+    font-size: 1em;
+}
+
+span {
+    display: block;
+}
+
+#group-one a, #group-two a {
+    text-decoration: none;
+}
+
+#group-one li:hover, #group-two li:hover {
+    border: 1px solid #2EB3DB;
+    transition: 0.3s;
+}
+
+.item-title {
+    color: #2EB3DB;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+.item-description {
+    color: white;
+    padding-left: 10px;
+}
+
+
+
+
+
+
